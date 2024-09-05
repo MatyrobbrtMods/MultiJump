@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "#minecraft:enchantable/foot_armor",
+      "required": false
+    },
+    {
+      "id": "mekanism:free_runners",
+      "required": false
+    },
+    {
+      "id": "mekanism:free_runners_armored",
+      "required": false
+    }
+  ]
+}

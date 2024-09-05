@@ -1,0 +1,52 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "translate": "enchantment.multijump.multi_jump"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.0,
+          "per_level_above_first": 1.0
+        },
+        "attribute": "multijump:extra_jumps",
+        "id": "multijump:enchantment.multi_jump",
+        "operation": "add_value"
+      }
+    ],
+    "multijump:extra_jump": [
+      {
+        "effect": {
+          "type": "minecraft:damage_item",
+          "amount": {
+            "type": "multijump:chance",
+            "chance": {
+              "type": "minecraft:linear",
+              "base": 0.25,
+              "per_level_above_first": 0.5
+            },
+            "fallback": 0.0,
+            "value": 1.0
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 10
+  },
+  "primary_items": "#multijump:enchantable/multi_jump",
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#multijump:enchantable/multi_jump",
+  "weight": 1
+}

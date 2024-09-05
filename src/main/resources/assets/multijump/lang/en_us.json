@@ -1,0 +1,13 @@
+{
+  "effect.multijump.multi_jump": "Multi Jump",
+  "item.minecraft.potion.effect.multi_jump": "Potion of Multi Jump",
+  "item.minecraft.splash_potion.effect.multi_jump": "Splash Potion of Multi Jump",
+  "item.minecraft.lingering_potion.effect.multi_jump": "Lingering Potion of Multi Jump",
+  "item.minecraft.tipped_arrow.effect.multi_jump": "Arrow of Multi Jump",
+  "enchantment.multijump.multi_jump": "Multi Jump",
+  "enchantment.multijump.multi_jump.desc": "Gives you one more extra mid-air jump that cancels the current fall damage for each level",
+  "multijump.extra_jumps": "Extra Jumps",
+  "hud.multijump.compressed_jumps": "%s/%s",
+
+  "multijump.configuration.hud_indicator": "Hud Indicator"
+}

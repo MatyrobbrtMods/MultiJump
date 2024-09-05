@@ -1,0 +1,5 @@
+// 1.21.1	2024-09-05T16:30:59.2746163	Tags for minecraft:enchantment mod id vanilla
+a81de73ea99e023da12abc165d97f9f9fa157915 data/minecraft/tags/enchantment/on_random_loot.json
+a81de73ea99e023da12abc165d97f9f9fa157915 data/minecraft/tags/enchantment/on_traded_equipment.json
+a81de73ea99e023da12abc165d97f9f9fa157915 data/minecraft/tags/enchantment/tradeable.json
+a81de73ea99e023da12abc165d97f9f9fa157915 data/minecraft/tags/enchantment/treasure.json
